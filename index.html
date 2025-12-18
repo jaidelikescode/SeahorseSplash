@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Seahorse Splash</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="game" aria-label="Seahorse Flappy-style game"></canvas>
+
+  <div class="overlay">
+    <div class="topbar">
+      <div id="score">Score: 0</div>
+      <div id="best">Best: 0</div>
+    </div>
+
+    <div class="center">
+      <h1 class="title">Seahorse Splash</h1>
+      <p class="subtitle">Tap / Space to swim up • Avoid the coral</p>
+      <div class="buttons">
+        <button id="btnStart">Start / Restart</button>
+        <button id="btnMute" aria-pressed="false">Sound: On</button>
+      </div>
+      <p class="small">Audio starts after your first tap/click (browser rule).</p>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
